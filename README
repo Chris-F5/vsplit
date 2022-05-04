@@ -1,0 +1,8 @@
+# vsplit
+
+does not work with escape charachters yet
+
+examples:
+```
+vsplit -s " | " <(ls /) <(cal) <(whoami)
+```
